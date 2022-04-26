@@ -16,5 +16,18 @@
       "perspective": "admin",
       "section": "home"
     }
+  },
+  {
+    "type": "console.page/resource/tab",
+    "properties": {
+        "name": "Kepler Console",
+        "href": "kepler",
+        "model": {
+            "group": "core",
+            "version": "v1",
+            "kind": "Pod"
+        },
+        "component": { "$codeRef": "ExampleTab" }
+      }
   }
 ]

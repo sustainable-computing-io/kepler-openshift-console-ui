@@ -50,7 +50,8 @@
     "displayName": "Kepler OpenShift Console Plugin",
     "description": "Project Kepler for OpenShift console plugins. ",
     "exposedModules": {
-      "ExamplePage": "./components/FrontPage"
+      "ExamplePage": "./components/FrontPage",
+      "ExampleTab": "./components/ExampleTab"
     },
     "dependencies": {
       "@console/pluginAPI": "*"
